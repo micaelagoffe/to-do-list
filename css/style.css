@@ -1,0 +1,234 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    width: 100%;
+    height: auto;
+    font-family: 'Heebo', sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(235, 200, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 55px 0;
+}
+
+.h1Mobile {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 3.5rem;
+    color: rgb(80, 51, 107);
+    text-align: center;
+}
+
+.h1FromIpad {
+    display: none;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 3.5rem;
+    color: rgb(80, 51, 107);
+    text-align: center;
+}
+
+.addItem {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 45px 0 30px 0;
+}
+
+#textbox {
+    padding: 0 10px;
+    width: 230px;
+    height: 33px;
+    outline: none;
+    border: none;
+    border-radius: 25px;
+    margin-right: 2.5px;
+    font-size: 1.1rem;
+}
+
+#addItemBtn {
+    width: 30px;
+    height: 30px;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    margin-left: 2.5px;
+    cursor: pointer;
+}
+
+#addItemBtn:hover {
+    background-color: rgb(225, 174, 255);
+}
+
+.sort {
+    width: 80%;
+}
+
+.sortBtn {
+    float: right;
+    background-color: transparent;
+    color: rgb(114, 79, 146);
+    border: none;
+    outline: none;
+    margin: 15px 3px 1px 0;
+}
+
+.sortBtn:hover {
+    color: rgb(204, 153, 233);
+}
+
+.toDoHeading {
+    display: block;
+    width: 80%;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    background-color: rgb(241, 220, 255);
+    color: rgb(80, 51, 107);
+    padding: 10px 0 0 10px;
+}
+
+.ulToDo {
+    width: 80%;
+    background-color: rgb(241, 220, 255);
+    color: rgb(80, 51, 107);
+    padding: 0 10px 10px 10px;
+    list-style-type: none;
+    margin-bottom: 15px;
+}
+
+.li {
+    width: 100%;
+}
+
+.li > button {
+    float: right;
+    margin: 0 5px 0 0;
+    outline: none;
+    border: none;
+    width: 20px;
+    height: 20px;
+    background-color: transparent;
+    color: rgb(116, 72, 129);
+    cursor: pointer;
+}
+
+.doneHeading {
+    display: block;
+    width: 80%;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    background-color: rgb(190, 177, 199);
+    color: rgb(80, 51, 107);
+    padding: 10px 0 0 10px;
+}
+
+.ulDone {
+    width: 80%;
+    background-color: rgb(190, 177, 199);
+    color: rgb(80, 51, 107);
+    padding: 0 10px 10px 10px;
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+
+.liDone {
+    width: 100%;
+}
+
+.liDone > button {
+    float: right;
+    margin: 0 5px 0 0;
+    outline: none;
+    border: none;
+    width: 20px;
+    height: 20px;
+    background-color: transparent;
+    color: rgb(116, 72, 129);
+    cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        margin: 25px 0;
+    }
+
+    .h1Mobile {
+        display: none;
+    }
+
+    .h1FromIpad {
+        display: block;
+        font-size: 3.5rem;
+        margin: 0 0 10px 0;
+    }
+
+    .addItem {
+        margin: 25px 0 15px 0;
+    }
+
+    #textbox {
+        font-size: 1.5;
+        width: 500px;
+    }
+
+    .sort {
+        width: 60%;
+    }
+
+    .toDoHeading {
+        width: 60%;
+        font-size: 1.2rem;
+        padding: 15px 0 0 30px;
+    }
+
+    .ulToDo {
+        width: 60%;
+        padding: 0 30px 15px 30px;
+    }
+
+    .li {
+        font-size: 1.1rem;
+        border-bottom: 0.5px solid rgb(221, 172, 253);
+    }
+    
+    .li > button {
+        margin-top: 4px;
+        font-size: 1.2rem;
+    }
+
+    .doneHeading {
+        width: 60%;
+        font-size: 1.2rem;
+        padding: 15px 0 0 30px;
+    }
+
+    .ulDone {
+        width: 60%;
+        padding: 0 30px 15px 30px;
+    }
+    
+    .liDone {
+        font-size: 1.1rem;
+    }
+
+    .liDone > button {
+        margin-top: 4px;
+        font-size: 1.2rem;
+    }
+}

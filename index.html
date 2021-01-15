@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/main.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Heebo&family=Montserrat+Alternates:wght@800&display=swap" rel="stylesheet">
+    <title>Min att göra-lista</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="h1Mobile">ATT GÖRA</h1>
+        <h1 class="h1FromIpad">MIN ATT GÖRA-LISTA</h1>
+        <div class="addItem">
+            <form id="form">
+                <input type="text" id="textbox" placeholder="Lägg till i listan...">
+                <button type="submit" id="addItemBtn"><i class="fas fa-plus"></i></button>
+            </form>
+        </div>
+        <div class="sort">
+            <button type="button" class="sortBtn">A-Ö</button>
+        </div>
+        <h3 class="toDoHeading"><strong>Ska göras</strong></h3>
+        <ul class="ulToDo">
+        </ul>
+        <h3 class="doneHeading"><strong>Avklarat</strong></h3>
+        <ul class="ulDone">
+        </ul>
+    </div>
+</body>
+</html>
