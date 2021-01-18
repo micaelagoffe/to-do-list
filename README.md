@@ -19,7 +19,7 @@
 - Use **camelCase**
 
 ##### Classes
-- Use **PamelCase**
+- Use **PascalCase**
 
 ---
 
