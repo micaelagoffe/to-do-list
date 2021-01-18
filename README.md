@@ -5,7 +5,7 @@
 
 ### Installation
 - Open terminal
-- Run ´git clone 'https://github.com/micaelagoffe/to-do-list.git'´
+- Run `git clone 'https://github.com/micaelagoffe/to-do-list.git'`
 - Open index.html
 
 ---
