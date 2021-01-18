@@ -5,7 +5,7 @@
 
 ### Installation
 - Open terminal
-- Run ´git clone 'url'´
+- Run ´git clone 'https://github.com/micaelagoffe/to-do-list.git'´
 - Open index.html
 
 ---
@@ -25,5 +25,5 @@
 
 ### Project structure
 - portfolio/ - project folder - root of project, index.html goes here
-  - js/ - javascript-folder - logic and functionality with file ending .js goes here
   - css/ - css-folder, all styling with file ending .css goes here
+  - js/ - javascript-folder - logic and functionality with file ending .js goes here
