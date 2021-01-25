@@ -1,5 +1,5 @@
 # To-do-list
-*School assignment to create a simple to-do-list, focusing on object orientation.*
+*School assignment to create a to-do-list.*
 
 ---
 
